@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Loading
-path = "/Users/brolinoconnell/Desktop/Johns Hopkins/Airlines_project/Fares_data/Merged_Fares .csv"
+path = "Merged_Fares .csv" 
 df = pd.read_csv(path, low_memory=False)
 
 # === Clean and Convert Fare Column Safely ===
