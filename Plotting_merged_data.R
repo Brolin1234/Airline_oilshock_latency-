@@ -1,5 +1,5 @@
 library(readr)
-Merged_Fares <- read_csv("/Users/brolinoconnell/Desktop/Johns Hopkins/Airlines_project/Fares_data/Merged_Fares .csv")
+Merged_Fares <- read_csv("Merged_Fares .csv")
 View(Merged_Fares)
 
 str(Merged_Fares)
